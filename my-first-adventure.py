@@ -241,7 +241,7 @@ if __name__ == "__main__":
 
     def keep_front():            
         bull = SkeletonBull()
-        The bull cannot be defeated by the player
+        #The bull cannot be defeated by the player
         while bull.hp > 0:
             print("You approach the front gate sword in hand. A necromancer is rumored to lair here after all.")
             time.sleep(2)
@@ -481,7 +481,7 @@ if __name__ == "__main__":
                 time.sleep(2)
                 boss_battle()
             else:
-                 print("Invalid Response. Try again.")
+                print("Invalid Response. Try again.")
                 time.sleep(1)
         elif choice == "2":
             print("You scan the room carefully, sword at the ready.")
@@ -508,7 +508,7 @@ if __name__ == "__main__":
                 time.sleep(2)
                 boss_battle()
             else:
-                 print("Invalid Response. Try again.")
+                print("Invalid Response. Try again.")
                 time.sleep(1)
         else:
             print("Invalid Response. Try again.")
